@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.contenedor {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: none;
+}
+
+.contenedor_tablero {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+}
+
+.contenedor_tablero h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.contenedor_tablero button {
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contenedor_tablero button img {
+    width: 100%;
+}
+
+.contenedor_score {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 50px 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 310px;
+}
+
+.contenedor_score div {
+    border: solid 2px #fff;
+    border-radius: 10px;
+    height: 95px;
+    margin: 30px 10px;
+    padding: 2px 5px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    margin-top: -50px;
+}

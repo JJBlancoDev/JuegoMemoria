@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Memoria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor_tablero">
+            <h1>Juego de memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="mostrarCarta(0)"></button></td>
+                    <td><button id="1" onclick="mostrarCarta(1)"></button></td>
+                    <td><button id="2" onclick="mostrarCarta(2)"></button></td>
+                    <td><button id="3" onclick="mostrarCarta(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="mostrarCarta(4)"></button></td>
+                    <td><button id="5" onclick="mostrarCarta(5)"></button></td>
+                    <td><button id="6" onclick="mostrarCarta(6)"></button></td>
+                    <td><button id="7" onclick="mostrarCarta(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="mostrarCarta(8)"></button></td>
+                    <td><button id="9" onclick="mostrarCarta(9)"></button></td>
+                    <td><button id="10" onclick="mostrarCarta(10)"></button></td>
+                    <td><button id="11" onclick="mostrarCarta(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="mostrarCarta(12)"></button></td>
+                    <td><button id="13" onclick="mostrarCarta(13)"></button></td>
+                    <td><button id="14" onclick="mostrarCarta(14)"></button></td>
+                    <td><button id="15" onclick="mostrarCarta(15)"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="contenedor_score">
+            <div class="aciertos">
+                <h1 id="aciertos">Aciertos:</h1>
+            </div>
+            <div class="tiempo">
+                <h1 id="tiempo">Tiempo: 40 segundos</h1>
+            </div>
+            <div class="movimientos">
+                <h1 id="movimientos">Movimientos:</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>Juego desarrollado por Janer Blanco</footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
