@@ -25,6 +25,7 @@ let clickAcertado = new Audio('./sound/clickAcertado.wav')
 
 // Numeros aleatorios
 let Array = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8]
+//let ArrayLevelTwo = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12] 
 Array = Array.sort(()=>
     {return Math.random()-0.5}
 );
@@ -63,7 +64,6 @@ function mostrarCarta(id) {
         temporizador = true
     }
 
-    
     cartasDestapadas += 1
     contadorMovimientos += 1
     movimientos.innerHTML = `Movimientos:${contadorMovimientos}`

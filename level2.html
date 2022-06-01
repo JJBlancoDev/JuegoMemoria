@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Memoria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor_tablero">
+            <h1>Juego de memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="mostrarCarta(0)"></button></td>
+                    <td><button id="1" onclick="mostrarCarta(1)"></button></td>
+                    <td><button id="2" onclick="mostrarCarta(2)"></button></td>
+                    <td><button id="3" onclick="mostrarCarta(3)"></button></td>
+                    <td><button id="4" onclick="mostrarCarta(4)"></button></td>
+                    <td><button id="5" onclick="mostrarCarta(5)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="6" onclick="mostrarCarta(6)"></button></td>
+                    <td><button id="7" onclick="mostrarCarta(7)"></button></td>
+                    <td><button id="8" onclick="mostrarCarta(8)"></button></td>
+                    <td><button id="9" onclick="mostrarCarta(9)"></button></td>
+                    <td><button id="10" onclick="mostrarCarta(10)"></button></td>
+                    <td><button id="11" onclick="mostrarCarta(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="mostrarCarta(12)"></button></td>
+                    <td><button id="13" onclick="mostrarCarta(13)"></button></td>
+                    <td><button id="14" onclick="mostrarCarta(14)"></button></td>
+                    <td><button id="15" onclick="mostrarCarta(15)"></button></td>
+                    <td><button id="16" onclick="mostrarCarta(16)"></button></td>
+                    <td><button id="17" onclick="mostrarCarta(17)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="18" onclick="mostrarCarta(18)"></button></td>
+                    <td><button id="19" onclick="mostrarCarta(19)"></button></td>
+                    <td><button id="20" onclick="mostrarCarta(20)"></button></td>
+                    <td><button id="21" onclick="mostrarCarta(21)"></button></td>
+                    <td><button id="22" onclick="mostrarCarta(22)"></button></td>
+                    <td><button id="23" onclick="mostrarCarta(23)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="24" onclick="mostrarCarta(24)"></button></td>
+                    <td><button id="25" onclick="mostrarCarta(25)"></button></td>
+                    <td><button id="26" onclick="mostrarCarta(26)"></button></td>
+                    <td><button id="27" onclick="mostrarCarta(27)"></button></td>
+                    <td><button id="28" onclick="mostrarCarta(28)"></button></td>
+                    <td><button id="29" onclick="mostrarCarta(29)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="30" onclick="mostrarCarta(30)"></button></td>
+                    <td><button id="31" onclick="mostrarCarta(31)"></button></td>
+                    <td><button id="32" onclick="mostrarCarta(32)"></button></td>
+                    <td><button id="33" onclick="mostrarCarta(33)"></button></td>
+                    <td><button id="34" onclick="mostrarCarta(34)"></button></td>
+                    <td><button id="35" onclick="mostrarCarta(35)"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="contenedor_score">
+            <div class="aciertos">
+                <h1 id="aciertos">Aciertos:</h1>
+            </div>
+            <div class="tiempo">
+                <h1 id="tiempo">Tiempo: 40 segundos</h1>
+            </div>
+            <div class="movimientos">
+                <h1 id="movimientos">Movimientos:</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>Juego desarrollado por Janer Blanco</footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
